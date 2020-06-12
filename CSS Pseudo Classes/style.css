@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Text{
+    padding: 10px;
+    margin: 5px;
+
+}
+.Text:focus{
+color: green;
+font-size: 20px;
+border: 5px dotted blue;
+}
+nav{
+    background-color: darkblue;
+    height: 50px;
+}
+nav ul{
+
+}
+nav ul li{
+    list-style-type: none;
+    width: 150px;
+    float: left;
+    border-right: 1px solid gray;
+    text-align: center;
+}
+nav ul li:last-child{
+    border-right: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    display: block;
+    padding 10px 20px 10px 0;
+}
+li a:hover{
+    background-color: lightblue;
+    color: green;
+}
+li a:focus{
+    background-color: aqua
+}
+.currentpage{
+    background-color:#26252d;
+
+}
